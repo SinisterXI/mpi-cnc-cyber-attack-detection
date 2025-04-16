@@ -30,9 +30,23 @@ With the rise of Industrial IoT, CNC systems have become a core target for cyber
   - Machining code injection
   - Parameter injection
   - Instruction injection
+    
+---
 
 ## 📊 Results
 - Detection Accuracy: 98.81%
 - False Alarm Rate: 1.09%
 - Response Delay: 2.45s
 - Interference with CNC: <0.1% impact on runtime
+  
+  ---
+  
+## 📚 Citation
+@article{li2024mpi-cnc,
+  title={Detecting Cyber-Attacks Against Cyber–Physical Manufacturing System: A Machining Process Invariant Approach},
+  author={Zedong Li, Xin Chen, Yuqi Chen, Shijie Li, Hangyu Wang, Shichao Lv, and Limin Sun},
+  journal={IEEE Internet of Things Journal},
+  year={2024}
+}
+
+
