@@ -31,4 +31,8 @@ With the rise of Industrial IoT, CNC systems have become a core target for cyber
   - Parameter injection
   - Instruction injection
 
-
+## 📊 Results
+- Detection Accuracy: 98.81%
+- False Alarm Rate: 1.09%
+- Response Delay: 2.45s
+- Interference with CNC: <0.1% impact on runtime
