@@ -18,3 +18,17 @@ With the rise of Industrial IoT, CNC systems have become a core target for cyber
 
 ## 🏗️ Project Structure
 . ├── simulator.py # Generates random CNC data with anomaly injection ├── detect_anomalies.py # Detects and classifies anomalies based on rules ├── cnc_utils.py # CNC parsing and communication helper functions ├── data/ # Sample CNC G-code and parameters ├── results/ # Experiment results and logs ├── README.md └── requirements.txt
+
+---
+
+## ⚙️ Features
+
+- ✅ G-code parsing for trajectory and parameter rule extraction
+- ✅ Real-time intrusion detection using DTW and KNN
+- ✅ Low-interference acquisition protocol (reverse-engineered from FANUC FOCAS)
+- ✅ Detection of:
+  - Machining code injection
+  - Parameter injection
+  - Instruction injection
+
+
